@@ -163,7 +163,7 @@ blockquote:before{
 	position:relative;
 	display:inline-block;
 	padding:10px 30px;
-	background-color: #33B0FF;
+	background-color: rgb(51, 176, 255);
 	border: 2px solid transparent;
 	border-radius: 40px;
 	color: #FFF;
@@ -173,8 +173,8 @@ blockquote:before{
 
 .main-button:hover , .main-button:focus {
 	background-color:#fff;
-	border: 2px solid #339EFF;
-	color:#339EFF;
+	border: 2px solid rgb(51, 176, 255);
+	color:rgb(51, 176, 255);
 }
 
 .main-button.icon-button:hover , .main-button.icon-button:focus {
@@ -281,7 +281,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	content:"";
 	display:block;
 	height:2px;
-	background-color:#FF6700;
+	background-color: rgb(51, 176, 255);;
 	width:100%;
 	-webkit-transform: translateY(5px);
 	    -ms-transform: translateY(5px);
@@ -519,7 +519,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .about-video:hover .play-icon {
-	color:#FF6700;
+	color:rgb(51, 176, 255);
 }
 
 @-webkit-keyframes play-animation {
@@ -551,7 +551,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	right:0;
 	bottom:0;
 	top:0;
-	background-color:#FF6700;
+	background-color: rgb(51, 176, 255);;
 	opacity:0.7;
 }
 
@@ -582,7 +582,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	right:0;
 	bottom:0;
 	top:0;
-	background-color:#FF6700;
+	background-color:rgb(51, 176, 255);;
 	opacity:0;
 	-webkit-transition:0.2s opacity;
 	transition:0.2s opacity;
@@ -646,6 +646,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	text-align:center;
 	margin-top:40px;
 }
+.grayColor{
+	background-color: rgba(244,245,244,.8);
+}
 
 /*------------------------------------*\
 	Footer
@@ -686,14 +689,14 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .footer-nav li a:hover , .footer-nav li a:focus {
-	color:#FF6700;
+	color:rgb(51, 176, 255);
 }
 
 .footer-nav li a:after {
 	content:"";
 	display:block;
 	height:2px;
-	background-color:#FF6700;
+	background-color:rgb(51, 176, 255);
 	width:100%;
 	-webkit-transform: translateY(5px);
 	    -ms-transform: translateY(5px);
@@ -1333,4 +1336,28 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 @keyframes preloader {
 	from { -webkit-transform: rotate(0deg); transform: rotate(0deg);}
 	to { -webkit-transform: rotate(360deg); transform: rotate(360deg);}
+}
+/*------------------------------------*\
+				Nav
+\*------------------------------------*/
+
+.navTop10{
+	margin-top: 15px !important;
+	color: rgb(51, 176, 255);
+}
+
+/*------------------------------------*\
+				Fonts
+\*------------------------------------*/
+.textFont{
+	font-family: 'Montserrat', sans-serif;
+}
+.activePage{
+	text-decoration: none;
+    outline: none;
+    color: #374050 !important;
+    opacity: 0.9;
+}
+.colorSuccess{
+	color: #5cb85c !important;
 }
