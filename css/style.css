@@ -238,6 +238,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	.navbar-brand {
 		margin-left:15px;
 	}
+	.image-about1{
+		width: 75% !important;
+		min-width: 0px !important;
+	}
 } 
 
 /*------------------------------------*\
@@ -1415,4 +1419,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 .margin15{
 	margin: 15%;
+}
+.margin5{
+	margin: 5%;
 }
