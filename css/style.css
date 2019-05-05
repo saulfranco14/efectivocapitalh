@@ -469,7 +469,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	border-radius: 50%;
 	font-size:30px;
 	border:1px solid #EBEBEB;
-	color:#339EFF;
+	color:#fff;
 }
 
 .feature-content {
@@ -1338,6 +1338,22 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 	to { -webkit-transform: rotate(360deg); transform: rotate(360deg);}
 }
 /*------------------------------------*\
+				Fondo
+\*------------------------------------*/
+
+.fondoGray{
+	background-image:url(../img/fondo_2.jpg);
+}
+.fondoBlue{
+	background-image:url(../img/fondo_1.jpg);
+}
+.asesoriaFondo{
+	background-image:url(../img/imageFondo1.jpg);
+}
+.imagenFondoContact{
+	background-image:url(../img/imagenFondoContact.jpg);
+}
+/*------------------------------------*\
 				Nav
 \*------------------------------------*/
 
@@ -1360,4 +1376,43 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 .colorSuccess{
 	color: #5cb85c !important;
+}
+.text-white{
+	color: #FFF;
+}
+
+.image-about1{
+	box-shadow		: 2px 3px 10px white;
+    min-width		: 550px;
+    margin			: 15%;
+}
+.lead-16{
+	font-size: 16px;
+}
+.lead-14{
+	font-size: 14px;
+}
+
+/*------------------------------------*\
+				Sections
+\*------------------------------------*/
+.cta-minHeight{
+	min-height: 550px;
+}
+.marginLeft50{
+	margin-left: 50px;
+}
+.button-whatsapp{
+	background-color: #5cb85c;
+}
+.button-whatsapp:hover{
+	background-color:#fff;
+	border: 2px solid #5cb85c;
+	color: #5cb85c;	
+}
+.feature-color{
+	color: rgb(51, 176, 255) !important;
+}
+.margin15{
+	margin: 15%;
 }
