@@ -242,6 +242,13 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 		width: 75% !important;
 		min-width: 0px !important;
 	}
+	.about2-mobile{
+		margin-left: 30px;
+    	margin-right: 30px;
+	}
+	.marginTop0Mobile{
+		padding-top: 0px !important;
+	}
 } 
 
 /*------------------------------------*\
@@ -1384,6 +1391,12 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 .text-white{
 	color: #FFF;
 }
+.text-blue{
+	color: rgb(51, 176, 255);
+}
+.text-gray{
+	color: #374050;
+}
 
 .image-about1{
 	box-shadow		: 2px 3px 10px white;
@@ -1395,6 +1408,10 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 .lead-14{
 	font-size: 14px;
+}
+.feature-gray{
+	color: #374050 !important;
+	border: 1px solid #374050 !important; 
 }
 
 /*------------------------------------*\
@@ -1422,4 +1439,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 .margin5{
 	margin: 5%;
+}
+.image-about2{
+	box-shadow: 2px 3px 10px  gray;
+    margin: 15% 15% 15% 0%;
+    width: 90% !important;
 }
